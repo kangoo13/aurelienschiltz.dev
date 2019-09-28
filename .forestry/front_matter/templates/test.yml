@@ -1,4 +1,13 @@
 ---
 label: test
 hide_body: true
-fields: []
+fields:
+- name: test
+  type: blocks
+  label: test
+  template_types:
+  - test
+  config:
+    min: 
+    max: 
+  description: test
