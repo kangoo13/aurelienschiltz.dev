@@ -1,0 +1,4 @@
+baseURL = "https://aurelienschiltz.dev/"
+languageCode = "fr-fr"
+title = "Aurélien SCHILTZ - Développeur Web"
+theme = "cupper-hugo-theme"
