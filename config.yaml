@@ -1,7 +1,7 @@
 baseURL: https://www.aurelienschiltz.dev
 languageCode: fr-fr
 defaultContentLanguage: fr
-title: Aurelien SCHILTZ - Developpeur Web
+title: Aurélien SCHILTZ - Développeur Web
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
@@ -30,9 +30,15 @@ menu:
     - name: Accueil
       url: /
       weight: 1
-    - name: Articles
-      url: /post/
+    - name: Portfolio
+      url: /portfolio/
       weight: 2
-    - name: CV
-      url: /about/
+    - name: Articles
+      url: /articles/
       weight: 3
+    - name: Curriculum vitæ
+      url: /curriculum-vitae/
+      weight: 4
+    - name: Contact
+      url: /me-contacter/
+      weight: 5
