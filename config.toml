@@ -1,0 +1,51 @@
+title = "Aurélien SCHILTZ | Software Engineer Montpellier"
+baseURL = "https://www.aurelienschiltz.dev"
+theme = "hugo-resume"
+languageCode = "fr-fr"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = true
+
+[params]
+address = "Montpellier, Hérault"
+email = "hello@aurelienschiltz.dev"
+favicon = "/favicon.ico"
+firstName = "Aurélien"
+navBackgroundColor = "#17181B"
+backgroundColor = "#2C2D2F"
+lastName = "SCHILTZ"
+phone = "+33626170523"
+profileImage = "img/profile.jpeg"
+showEducation = true
+showExperience = true
+showOpenSource = true
+showBlog = true
+showProjects = true
+showPublications = false
+showQr = true
+showSkills = true
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "UA-123456789-1"
+
+[[params.handles]]
+link = "https://fr.linkedin.com/in/aurelienschiltz"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/kangoo13/"
+name = "GitHub"
+
+[[params.handles]]
+link = "mailto:hello@aurelienschiltz.dev"
+icon = "envelope"
+name = "E-Mail"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Développeur Web (En télé-travail depuis le 1er janvier 2019)",
+    "company": "My Local Influence (Marseille)",
+    "summary": "- Aide à la conception technique & développement des nouveaux produits\n- En charge des robots scrappers\n- En charge d'un serveur vocal intéractif\n- Et plus encore...",
+    "range": "Septembre 2017 - Maintenant"
+  },
+  {
+    "role": "Stagiaire (Part-Time + Stage)",
+    "company": "Linkiu (Marseille)",
+    "summary": "- Amélioration du site web de la solution (en fonctionnalités, debug)\n- Développement de nouveaux robots scrappers, et d'un serveur vocal intéractif.",
+    "range": "Septembre 2016 - Août 2017"
+  },
+  {
+    "role": "Freelancer",
+    "company": "Auto-Entrepreneur (Istres)",
+    "summary": "Réalisation de plusieurs taches pour des clients (Scrapping et site web)",
+    "range": "Septembre 2015 - Mai 2016"
+  },
+  {
+    "role": "Développeur Unity3D",
+    "company": "VSM (Istres)",
+    "summary": "Développement d'un simulateur de drone.",
+    "range": "Avril 2015 - Août 2015"
+  },
+  {
+    "role": "Développeur Web",
+    "company": "ASCII Inforama (Nice)",
+    "summary": "Développement de site web avec HTML5, CSS3, PHP, MySQL, JavaScript et le framework Laravel.",
+    "range": "Juillet 2013 - Novembre 2013"
+  }
+]

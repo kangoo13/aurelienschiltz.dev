@@ -1,6 +1,11 @@
 ---
-date: 2019-09-28T19:27:58+02:00
-title: Accueil
+title: "Accueil"
+date: 2020-02-10T18:56:13-05:00
+sitemap:
+  priority : 1.0
 
+outputs:
+- html
+- rss
+- json
 ---
-Bienvenue !

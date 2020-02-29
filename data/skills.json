@@ -1,0 +1,152 @@
+[
+  {
+    "grouping": "Infrastructure & Architecture",
+    "skills": [
+      "Microservices",
+      {
+        "name": "Redis",
+        "icon": "redis"
+      },
+      {
+        "name": "Linux",
+        "icon": "linux"
+      },
+      {
+        "name": "Ubuntu",
+        "icon": "ubuntu"
+      },
+      "RESTful APIs",
+      {
+        "name": "GitHub",
+        "icon": "github"
+      },
+      {
+        "name": "Nginx",
+        "icon": "nginx"
+      },
+      "Traefik",
+      {
+        "name": "Wordpress",
+        "icon": "wordpress"
+      },
+      {
+        "name": "SSH",
+        "icon": "ssh"
+      },
+      "DNS",
+      "Load Balancing"
+    ]
+  },
+  {
+    "grouping": "Langages maitrisés (dans l'ordre)",
+    "skills": [
+      {
+        "name": "PHP 5.7-7.4",
+        "icon": "php"
+      },
+      {
+        "name": "Laravel Framework",
+        "icon": "laravel"
+      },
+      {
+        "name": "Golang",
+        "icon": "go"
+      },
+      {
+        "name": "Scrapy (Python3)",
+        "icon": "python"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript"
+      },
+      {
+        "name": "Puppeteer/CasperJS"
+      },
+      {
+        "name": "AngularJS",
+        "icon": "angularjs"
+      },
+      {
+        "name": "NodeJS",
+        "icon": "nodejs"
+      },
+      {
+        "name": "Unity"
+      },
+      {
+        "name": "jQuery",
+        "icon": "jquery"
+      },
+      {
+        "name": "HTML5",
+        "icon": "html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "css3"
+      }
+    ]
+  },
+  {
+    "grouping": "Bases de données",
+    "skills": [
+      {
+        "name": "MySQL",
+        "icon": "mysql"
+      },
+      {
+        "name": "MariaDB"
+      },
+      {
+        "name": "MongoDB (dans le cadre des études)",
+        "icon": "mongodb"
+      }
+    ]
+  },
+  {
+    "grouping": "Containers & Cloud",
+    "skills": [
+      {
+        "name": "Docker",
+        "link": "https://docker.com",
+        "icon": "docker"
+      },
+      {
+        "name": "Google Cloud (TTS, Storage, Build (CD), Compute Engine, PubSub, Load Balancing, Kubernetes, StackDriver)",
+        "icon": "google",
+        "link": "https://cloud.google.com"
+      },
+      {
+        "name": "AWS (SQS, Route 53)",
+        "icon": "amazonwebservices",
+        "link": "https://aws.amazon.com"
+      }
+    ]
+  },
+  {
+    "grouping": "Autres",
+    "skills": [
+      {
+        "name": "Web Scraping"
+      },
+      {
+        "name": "Codecov"
+      },
+      {
+        "name": "CircleCI"
+      },
+      {
+        "name": "Slack",
+        "icon": "slack"
+      },
+      {
+        "name": "Whereby"
+      },
+      {
+        "name": "Vim",
+        "icon": "vim"
+      }
+    ]
+  }
+]

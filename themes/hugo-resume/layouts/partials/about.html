@@ -1,0 +1,46 @@
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about"
+         style="background-size:cover;background-image: url(/img/home-bg.jpg);">
+        <div class="my-auto">
+          <div class="resume-item flex-column flex-md-row">
+
+              <h1 class="mb-0"
+                  style="color: {{ .Site.Params.firstNameColor | default "inherit" }}">{{ .Site.Params.firstName }}
+                  <span class="text-primary">{{ .Site.Params.lastName }}</span>
+              </h1>
+              <div class="subheading mb-4">{{ .Site.Params.address }}
+              </div>
+
+
+
+        </div>
+        <div style="margin-bottom: 5rem;">
+            <div class="selector">
+<p class="ah-headline">
+        <span>Je suis</span>
+        <span class="ah-words-wrapper">
+            <b class="is-visible">un développeur web</b>
+            <b>un futur papa</b>
+            <b>salarié à Myli</b>
+            <b>passionné</b>
+        </span>
+        </p>
+</div>
+        </div>
+          <ul class="list-inline list-social-icons mb-0">
+            {{ range .Site.Params.handles }}
+                <li class="list-inline-item">
+                  <a href="{{ .link }}" data-toggle="tooltip" target="_blank" title="{{ .name }}" data-offset="0 10" rel="me">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                        {{ if eq (.icon) ("envelope")}}
+                            <i class="fas {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
+                        {{ else }}
+                            <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
+                        {{end}}
+                    </span>
+                  </a>
+                </li>
+            {{ end }}
+          </ul>
+      </div>
+    </section>

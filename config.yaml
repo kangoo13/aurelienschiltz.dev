@@ -2,10 +2,13 @@ baseURL: https://www.aurelienschiltz.dev
 languageCode: fr-fr
 defaultContentLanguage: fr
 title: Aurélien SCHILTZ - Développeur Web
-theme: cupper-hugo-theme
+theme: hugo-resume
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
 enableGitInfo: true
+
+params.email: "aurelienschiltz@gmail.com"
+
 
 taxonomies:
   tag: tags
@@ -15,30 +18,3 @@ permalinks:
 
 imaging:
   quality: 99
-
-params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
-  # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
-
-menu:
-  nav:
-    - name: Accueil
-      url: /
-      weight: 1
-    - name: Portfolio
-      url: /portfolio/
-      weight: 2
-    - name: Articles
-      url: /articles/
-      weight: 3
-    - name: Curriculum vitæ
-      url: /curriculum-vitae/
-      weight: 4
-    - name: Contact
-      url: /me-contacter/
-      weight: 5

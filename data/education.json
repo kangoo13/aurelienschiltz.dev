@@ -1,0 +1,19 @@
+[
+  {
+    "school": "[Beijing Jiaotong University (北京交通大学)](http://en.njtu.edu.cn/)",
+    "notes": "Au sein de la quatrième année d'EPITECH, j'ai pu effectuer quasiment un an d'études dans cette université.",
+    "range": "Sept 2015 - Mai 2016"
+  },
+  {
+    "school": "[EPITECH Ecole de l'expertise et de l'innovation technologique](https://epitech.eu)",
+    "degree": "Master",
+    "notes": "Terminé deuxième au concours sur le web pentesting à travers tous les EPITECH de France.",
+    "range": "2012 - 2017"
+  },
+  {
+    "school": "Baccalauréat sciences et technologies industrielles",
+    "degree": "Lycée Paul Langevin (Martigues)",
+    "major": "Mention Assez Bien",
+    "range": "2011 - 2012"
+  }
+]
