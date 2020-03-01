@@ -1,5 +1,5 @@
-<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about"
-         style="background-size:cover;background-image: url(/img/home-bg.jpg);">
+<section class="resume-section p-3 p-lg-5 d-flex d-column lazyload" id="about"
+         data-bg="{{"/img/home-bg.jpg" | absURL }}" style="background-size:cover;">
         <div class="my-auto">
           <div class="resume-item flex-column flex-md-row">
 
@@ -29,7 +29,8 @@
           <ul class="list-inline list-social-icons mb-0">
             {{ range .Site.Params.handles }}
                 <li class="list-inline-item">
-                  <a href="{{ .link }}" data-toggle="tooltip" target="_blank" title="{{ .name }}" data-offset="0 10" rel="me">
+                  <a href="{{ .link }}" data-toggle="tooltip" target="_blank" title="{{ .name }}" data-offset="0 10"
+                     rel="me">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
                         {{ if eq (.icon) ("envelope")}}
